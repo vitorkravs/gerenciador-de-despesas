@@ -15,6 +15,7 @@ import { Category } from "./types/Category";
 import { Items } from "./data/item";
 import { Categories } from "./data/categories";
 import { InfoArea } from "./components/infoArea";
+import { InputArea } from "./components/InputArea";
 
 const App = () => {
   const [list, setList] = useState(Items);
@@ -47,6 +48,12 @@ const App = () => {
     setCurrentMonth(newMonth);
   };
 
+  const handleAddItem = (item: Item) => {
+    let newList = [...list];
+    newList.push(item);
+    setList(newList);
+  };
+
   return (
     <C.Container>
       <C.Header>
@@ -61,7 +68,7 @@ const App = () => {
           expense={expense}
         />
 
-        {/*área de inserção*/}
+        <InputArea onAdd={handleAddItem} />
 
         <TableArea list={filteredList} />
       </C.Body>
