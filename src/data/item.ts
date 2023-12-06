@@ -22,7 +22,7 @@ export const Items: Item[] = [
   {
     date: new Date(2023, 11, 1),
     category: "invoice",
-    title: "fatura cartão",
+    title: "fatura do cartão",
     value: 500,
   },
 ];
