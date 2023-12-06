@@ -6,6 +6,7 @@ export const Table = styled.table`
   background-color: #fff;
   padding: 20px;
   box-shadow: -5px 5px 8px #d1003f;
+  border-radius: 0 0 10px 10px;
 `;
 
 export const TableHeadArea = styled.th<{ width?: number }>`

@@ -17,6 +17,5 @@ export const HeaderText = styled.h1`
 
 export const Body = styled.div`
   margin: auto;
-  max-width: 980px;
-  background-color: #627780;
+  max-width: 900px;
 `;
