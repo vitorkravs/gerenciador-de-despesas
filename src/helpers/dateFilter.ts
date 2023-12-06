@@ -22,7 +22,7 @@ export const filterListByMonth = (list: Item[], date: string): Item[] => {
 
 export const formatDate = (date: Date): string => {
   let year = date.getFullYear();
-  let month = date.getMonth();
+  let month = date.getMonth() + 1;
   let day = date.getDay();
 
   return `${addZeroDate(day)}/${addZeroDate(month)}/${addZeroDate(year)}`;
@@ -53,4 +53,9 @@ export const formatCurrentMonth = (currentMonth: string): string => {
     "Dezembro",
   ];
   return `${months[parseInt(month) - 1]} de ${year}`;
+};
+
+export const newDateAdjusted = (dateField: string) => {
+  let [year, month, day] = dateField.split("-");
+  return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
 };
