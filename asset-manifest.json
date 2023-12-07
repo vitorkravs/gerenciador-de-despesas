@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gerenciador-de-dispesas/static/css/main.fb35d48d.css",
-    "main.js": "/gerenciador-de-dispesas/static/js/main.68465e0d.js",
-    "static/js/787.b2c2507a.chunk.js": "/gerenciador-de-dispesas/static/js/787.b2c2507a.chunk.js",
-    "index.html": "/gerenciador-de-dispesas/index.html",
-    "main.fb35d48d.css.map": "/gerenciador-de-dispesas/static/css/main.fb35d48d.css.map",
-    "main.68465e0d.js.map": "/gerenciador-de-dispesas/static/js/main.68465e0d.js.map",
-    "787.b2c2507a.chunk.js.map": "/gerenciador-de-dispesas/static/js/787.b2c2507a.chunk.js.map"
+    "main.css": "/gerenciador-de-despesas/static/css/main.fb35d48d.css",
+    "main.js": "/gerenciador-de-despesas/static/js/main.bbaa8c8d.js",
+    "static/js/787.b2c2507a.chunk.js": "/gerenciador-de-despesas/static/js/787.b2c2507a.chunk.js",
+    "index.html": "/gerenciador-de-despesas/index.html",
+    "main.fb35d48d.css.map": "/gerenciador-de-despesas/static/css/main.fb35d48d.css.map",
+    "main.bbaa8c8d.js.map": "/gerenciador-de-despesas/static/js/main.bbaa8c8d.js.map",
+    "787.b2c2507a.chunk.js.map": "/gerenciador-de-despesas/static/js/787.b2c2507a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb35d48d.css",
-    "static/js/main.68465e0d.js"
+    "static/js/main.bbaa8c8d.js"
   ]
 }
