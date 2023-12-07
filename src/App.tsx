@@ -9,7 +9,6 @@ import TableArea from "./components/TableArea/index";
 
 //types
 import { Item } from "./types/Item";
-import { Category } from "./types/Category";
 
 //dados
 import { Items } from "./data/item";
